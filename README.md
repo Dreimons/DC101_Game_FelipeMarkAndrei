@@ -30,5 +30,5 @@ Instruction how to run the game:
 
 
 Link:
- https://dreimons.github.io/DC101_Game_FelipeMarkAndrei/
+ [https://dreimons.github.io/DC101_Game_FelipeMarkAndrei/](https://dreimons.github.io/DC101_RockPaperScissors_FelipeMarkAndrei/)
 
