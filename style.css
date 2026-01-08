@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header {
+    padding: 20px;
+    background-color:white;
+}
+
+body {
+    background-color: beige;
+}
+
+header > h1 {
+    font-family: sans-serif;
+    color: black;
+    text-align: center;
+}
+
+.score-board {
+    border: 3px black solid;
+    margin: 20px auto;
+    border-radius: 4px;
+    width: 300px;
+    font-size: 46px;
+    text-align: center;
+    padding: 25px 20px;
+    font-family: sans-serif;
+    position: relative;
+}
+
+.badge {
+    background: rgb(111, 71, 223);
+    color: white;
+    font-size: 20px;
+    padding: 2px 10px;
+    font-family: sans-serif;
+}
+
+#you-label {
+    position: absolute;
+    top: 40px;
+    left: -28px;
+}
+
+#computer-label {
+    position: absolute;
+    top: 40px;
+    right: -38px;
+}
+
+.result {
+    font-size: 35px;
+    color: black;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.result > p {
+    text-align: center;
+}
+
+.choices {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.choice {
+    border: 4px solid black;
+    border-radius: 50%;
+    margin: 0px 20px;
+    padding: 30px;
+    display: inline-block;
+    transition: all 0.3s ease ;
+}
+
+.choice:hover {
+    cursor: pointer;
+}
+
+#selectoption {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+img {
+    height: 150px;
+    width: 200px;
+}
+
+.green-hulk {
+    background-color: green;
+}
+
+.red-hulk {
+    background-color: red;
+}
+
+.gray-draw {
+    background-color: grey;
+}
